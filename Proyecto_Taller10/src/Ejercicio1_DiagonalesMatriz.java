@@ -65,3 +65,15 @@ public class Ejercicio1_DiagonalesMatriz {
         }
     }
 }
+/***
+ * Solucion ejercicio notas
+ * 0,0  0,1  0,2
+ * 1,0  1,1  1,2
+ * 2,0  2,1  2,2
+ * 
+ * promedio posicion 0 = (nota pos 0,0 * 0.3) + (nota pos 0,1 *0.35) + (nota pos 0,2 *0.35)
+ * prom pos 1 =  (nota pos 1,0 * 0.3)......
+ * for (i = 0 ..... n-1)
+ *  for (j = 0 ....... (3-1))
+ *      P[i] += n[i,j] * 0.35
+ */
